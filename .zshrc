@@ -1,4 +1,8 @@
+autoload -Uz compinit
+compinit
+
 export PATH="/usr/local/bin:$PATH"
+
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 # functions
