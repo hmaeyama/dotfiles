@@ -1,3 +1,5 @@
+
+
 autoload -Uz compinit
 compinit
 
@@ -9,6 +11,8 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 autoload -U colors
 colors
 
+# prompt colors
+PROMPT="%{${fg[green]}%}[%n@%m]%{${reset_color}%}"
 # Enable ls colors
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
 
