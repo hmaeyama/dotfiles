@@ -5,6 +5,13 @@ export PATH="/usr/local/bin:$PATH"
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
+# colors
+autoload -U colors
+colors
+
+# Enable ls colors
+export LSCOLORS="Gxfxcxdxbxegedabagacad"
+
 # functions
 git_current_branch(){
   local ref
@@ -13,6 +20,12 @@ git_current_branch(){
 }
 
 # aliases
+
+# posix
+if [[ "$OSTYPE" == darwin* ]] then;
+  alias ls='ls -G'
+fi
+alias ll='ls -al'
 
 ## git
 alias g='git'
