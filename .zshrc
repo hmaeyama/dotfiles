@@ -13,7 +13,7 @@ autoload -U colors
 colors
 
 # prompt colors
-PROMPT="%{${fg[green]}%}[%n@%m]%{${reset_color}%}"
+PROMPT="%{${fg[green]}%}[%n@%~]%{${reset_color}%}"
 # Enable ls colors
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
 
