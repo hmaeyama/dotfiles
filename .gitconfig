@@ -1,3 +1,5 @@
 [user]
-	name = hmaeyama
-	email = better.late.than.never.00@gmail.com
+    name = hmaeyama
+    email = better.late.than.never.00@gmail.com
+[color]
+    ui = true
