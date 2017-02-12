@@ -9,6 +9,8 @@ export PATH="/usr/local/bin:$PATH"
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 # history
+HISTFILE=~/.zsh_history
+HISTSIZE=100000
 SAVEHIST=100000
 
 # colors
