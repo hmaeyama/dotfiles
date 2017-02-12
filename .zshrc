@@ -8,6 +8,9 @@ export PATH="/usr/local/bin:$PATH"
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
+# history
+SAVEHIST=100000
+
 # colors
 autoload -U colors
 colors
