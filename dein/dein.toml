@@ -3,3 +3,6 @@ repo = 'Shougo/dein.vim'
 
 [[plugins]]
 repo = 'editorconfig/editorconfig-vim'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
