@@ -56,3 +56,6 @@ set shiftwidth=4
 set autoindent
 " 改行時に入力された行の末尾に合わせて次の行のインデントを指定する
 set smartindent
+" 検索の設定
+set ignorecase
+set smartcase
