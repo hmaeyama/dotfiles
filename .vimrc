@@ -2,7 +2,10 @@
 let s:dein_dir = expand('~/.dotfiles/dein')
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 
-set nocompatible
+if &compatible
+  set nocompatible
+endif
+
 " dein.vim をインストールしていない場合は自動インストール
 if !isdirectory(s:dein_repo_dir)
   echo "install dein.vim..."
