@@ -4,8 +4,6 @@ export LANG=ja_JP.UTF-8
 autoload -Uz compinit
 compinit
 
-fpath=(/usr/local/share/zsh-completions $fpath)
-
 # history
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
