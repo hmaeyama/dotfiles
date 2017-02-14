@@ -4,8 +4,6 @@ export LANG=ja_JP.UTF-8
 autoload -Uz compinit
 compinit
 
-export PATH="/usr/local/bin:$PATH"
-
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 # history
