@@ -43,6 +43,7 @@ alias mv='mv -i'
 ## git
 alias g='git'
 alias gb='git branch'
+alias gbd='git branch -d'
 alias gs='git status'
 alias gp='git pull'
 alias gch='git checkout'
