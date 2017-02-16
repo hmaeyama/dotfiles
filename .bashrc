@@ -12,16 +12,7 @@ git_current_branch(){
 
 # aliases
 
-# posix
-
-case "${OSTYPE}" in
-darwin*)
-  alias ls="ls -G"
-  ;;
-linux*)
-  alias ls='ls --color'
-  ;;
-esac
+alias ls='ls --color'
 
 alias ll='ls -al'
 
