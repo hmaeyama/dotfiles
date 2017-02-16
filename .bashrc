@@ -16,10 +16,6 @@ alias ls='ls --color'
 
 alias ll='ls -al'
 
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
-
 ## git
 alias g='git'
 alias gb='git branch'
