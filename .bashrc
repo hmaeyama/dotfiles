@@ -12,9 +12,10 @@ git_current_branch(){
 
 # aliases
 
-alias ls='ls --color'
+alias l.='ls -d .* --color=auto'
+alias ll='ls -l --color=auto'
+alias ls='ls --color=auto'
 
-alias ll='ls -al'
 
 ## git
 alias g='git'
