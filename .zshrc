@@ -28,6 +28,12 @@ git_current_branch(){
 
 # aliases
 
+## directories
+alias -g ...='../..'
+alias -g ....='../../..'
+alias -g .....='../../../..'
+
+## ls
 alias l.='ls -d .* --color=auto'
 alias ll='ls -l --color=auto'
 alias ls='ls --color=auto'
