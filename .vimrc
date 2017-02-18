@@ -49,6 +49,13 @@ set hlsearch
 set ruler
 " 構文毎に文字色を変化
 syntax on
+" 空白文字の表示設定
+set list
+set listchars=tab:>\ ,trail:-                            " 特殊文字の代替文字(タブと行末のスペース)
+highlight SpecialKey ctermfg=darkgray                    " タブの色
+highlight NonText ctermfg=darkgray                       " 改行の色
+highlight ZenkakuSpace cterm=underline ctermfg=darkgray  " 全角スペースの色
+match ZenkakuSpace /　/                                  " スラッシュの間に全角スペース
 " タブ入力を複数の空白入力に置き換える
 set expandtab
 " タブ文字の幅
