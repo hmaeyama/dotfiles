@@ -12,6 +12,6 @@ cd ~/.dotfiles
 
 ## Warning
 
-hmaeyama dotfiles support gnu commands only.  
-so if you want to use bsd environment(for example macos),  
-please install **coreutils**.
+This dotfiles support gnu commands only.  
+If you want to use bsd environment(for example macos),  
+please install gnu commands.
