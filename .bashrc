@@ -16,6 +16,8 @@ alias l.='ls -d .* --color=auto'
 alias ll='ls -l --color=auto'
 alias ls='ls --color=auto'
 
+alias md='mkdir -p'
+alias rd='rmdir'
 
 ## git
 alias g='git'
