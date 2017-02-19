@@ -6,3 +6,7 @@ repo = 'editorconfig/editorconfig-vim'
 
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
+
+[[plugins]] # toml syntax
+repo = 'cespare/vim-toml'
+on_ft = 'toml'
