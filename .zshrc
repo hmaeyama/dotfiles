@@ -33,6 +33,9 @@ alias -g ...='../..'
 alias -g ....='../../..'
 alias -g .....='../../../..'
 
+alias md='mkdir -p'
+alias rd='rmdir'
+
 ## ls
 alias l.='ls -d .* --color=auto'
 alias ll='ls -l --color=auto'
