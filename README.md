@@ -12,6 +12,6 @@ cd ~/.dotfiles
 
 ## Warning
 
-This dotfiles support gnu commands only.  
+This dotfiles support Gnu Command only.  
 If you want to use bsd environment(for example macos),  
-please install gnu commands.
+please install Gnu Command.
