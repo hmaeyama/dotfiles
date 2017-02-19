@@ -37,6 +37,9 @@ if dein#check_install()
   call dein#install()
 endif
 
+set background=dark
+colorscheme hybrid
+
 " ウインドウにタイトルを表示する
 set title
 " 行番号を表示
