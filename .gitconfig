@@ -1,5 +1,7 @@
 [user]
     name = hmaeyama
     email = better.late.than.never.00@gmail.com
+[core]
+    editor = vim
 [color]
     ui = true
