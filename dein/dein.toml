@@ -13,3 +13,6 @@ on_ft = 'toml'
 
 [[plugins]]
 repo = 'w0ng/vim-hybrid'
+
+[[plugins]]
+repo = 'tomtom/tcomment_vim'
