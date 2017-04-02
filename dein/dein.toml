@@ -16,3 +16,6 @@ repo = 'w0ng/vim-hybrid'
 
 [[plugins]]
 repo = 'tomtom/tcomment_vim'
+
+[[plugins]]
+repo = 'mattn/emmet-vim'
