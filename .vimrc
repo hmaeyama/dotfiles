@@ -38,7 +38,6 @@ if dein#check_install()
 endif
 
 set background=dark
-colorscheme hybrid
 
 " ウインドウにタイトルを表示する
 set title
