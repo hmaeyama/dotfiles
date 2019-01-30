@@ -54,9 +54,8 @@ alias md='mkdir -p'
 alias rd='rmdir'
 
 ## ls
-alias l.='ls -d .* --color=auto'
-alias ll='ls -l --color=auto'
-alias ls='ls --color=auto'
+alias l.='ls -d .*'
+alias ll='ls -l'
 
 ## git
 alias g='git'
